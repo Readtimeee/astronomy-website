@@ -1,0 +1,233 @@
+body {
+    background-image:url(Galaxy2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+* {
+ margin: 0;
+ padding: 0;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+ color: black;
+ display: flex;
+ font-size: 20px;
+}
+.navbar {
+ right: 180px;
+ margin: flex;
+ padding: 0.5rem 1.5rem;
+ background-color: black;
+ border-radius: 1rem;
+ box-shadow:0 4px 12px rgba (0,0,0,0.1);
+}
+.nav-links {
+ display: flex;
+ gap: 5rem;
+}
+.nav-link, .drop-down li {
+ list-style: none;
+ height: 100%;
+ padding: 0.5rem 1rem;
+ font-weight: 600;
+ cursor: pointer;
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+.drop-down {
+ position: absolute;
+ padding: 0.5rem 0;
+ margin: 0.5rem -0.5rem;
+ background-color: black;
+ color: white;
+ box-shadow:0 4px 12px rgba (0,0,0,0.1);
+ border-radius: 0.5rem;
+ font-size: 16px;
+ display: none;
+}
+.nav-link:hover {
+ background-color: black;
+ color: #fff;
+ border-radius: 0.5rem;
+}
+.services:hover .drop-down {
+ display: block;
+}
+.services a {
+ display: flex;
+}
+.dropdown-icon {
+ font-size: 20px;
+ position: relative;
+ right: -5px;
+ transform: rotate(0deg);
+ transition: 0.3s ease-in-out all;
+}
+.services:hover .dropdown-icon {
+ transform: rotate(180deg);
+}
+.drop-down li:hover {
+ background-color: red;
+ color: #fff;
+ border-radius: 0.5rem;
+}
+.navbar a:hover {
+ color: #fff;
+ border: 0.5rem;
+}
+.btn {
+ border: none;
+ padding: 10px 18px;
+ font-size: 16px;
+ cursor: pointer;
+ color: #fff;
+ background-color: black;
+}
+/* Nav end */ 
+ 
+footer {
+    background-color: black;
+ }
+ .footercontainer {
+    margin: 5px;
+ }
+ .socialicons {
+    display: flex;
+    justify-content: center;
+ }
+ .socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+ }
+ .socialicons a i{
+    font-size: 2em;
+    color: #4c4c4c;
+    opacity: 0.9;
+ }
+ /* hover effects on social media icons */
+ 
+ .socialicons a:hover {
+    background-color: #2c2c2c;
+    transition: 0.5s;
+ }
+ .socialicons a:hover i {
+    color: white;
+    transition: 0.5s;
+ }
+.footernav {
+    margin: 30px 0;
+}
+.footernav ul {
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover {
+    opacity: 1;
+}
+.footerbottom {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p {
+    color: white;
+}
+
+/*contact us*/
+
+.contactcontainer {
+    width: 50%;
+    margin: 50px auto;
+    color: skyblue;
+    font-style: inherit;
+
+}
+.contact-box {
+    background-color: #2c2c2c;
+    display: flex;
+}
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: #fff;
+}
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background-color: skyblue;
+    color: #fff;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.contactcontainer p {
+    margin-bottom: 40px;
+}
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group {
+    flex-basis: 45%;
+}
+input {
+    width: 100%;
+    border: none;
+    border-bottom:1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #ccc;
+}
+button {
+    background-color: skyblue;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 1.5rem;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0,3);
+}
+.contact-left h3 {
+    color: #ccc;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3 { 
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child {
+    padding-right: 20px;
+}
+tr td {
+    padding-top: 20px;
+}

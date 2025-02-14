@@ -1,0 +1,78 @@
+body{
+  background-color: black;    
+  color:white; 
+}
+
+  .carousel-inner{
+    width:70%;
+  }
+
+
+  .K{
+      background-color: greenyellow;
+      margin: 50 50 50 20;
+  }
+  .S{
+      background-color: greenyellow;
+  }
+
+  .col{
+    margin: auto;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .btn{
+    margin: auto;
+    color: skyblue;
+    background-color: skyblue;
+    border-radius: 1.5rem
+  }
+
+  .btn:hover{
+    color:white;
+  }
+  carousel-inner{
+    width:70%;
+  }
+
+  /* .Home
+  {
+
+  background-color: black;
+  color: greenyellow;
+  } */
+
+  /* .btn{
+
+  background-color: greenyellow;
+  margin-left: 80px;
+  } */
+
+  .K{
+      background-color: greenyellow;
+      margin: 50 50 50 20;
+  }
+
+  /* .navbar{
+      background-color: greenyellow;
+    } */
+
+  .S{
+      background-color: greenyellow;
+  }
+
+  .col{
+    margin: auto;
+    margin-left: 12px;
+    margin-top: 12px;
+  }
+  .btn{
+    margin: auto;
+    color:white;
+  }
+
+  .btn:hover{
+    color:white;
+  }
+
+ 
